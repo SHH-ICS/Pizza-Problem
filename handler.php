@@ -20,15 +20,14 @@
         $cost = 6;
         echo "You have chosen a Large Pizza <br />"; 
       }
-      if (strpos($size, "xl") !== false) {
+      elseif (strpos($size, "xl") !== false) {
         $cost = 10;
         echo "You have chosen an XL Pizza<br />";
         }
-    }
-      
-    else {
+    
+  else {
           echo "Please enter a valid Pizza size<br />";
-      }
+      }}
       if ($exitsizeloop == 0 ) {
           while ($exittoppingloop == 1)
             {
@@ -67,7 +66,7 @@
       echo "Your total is $",  round($cost*$tax, 2),"<br />";
           } 
     }
-  }
+  
   ?> 
 
 </body>
