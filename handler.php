@@ -25,7 +25,7 @@
         echo "You have chosen an XL Pizza<br />";
         }
      }
-  }
+}
       else {
           echo "Please enter a valid Pizza size<br />";
        }
