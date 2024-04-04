@@ -10,13 +10,13 @@
   $exittoppingloop = 1;
   while ($exitsizeloop == 1)
   {
-     $size = readline("What type of pizza would you like? Large or XL?");
+    $size = readline("What type of pizza would you like? Large or XL?");
       $size = strtolower($size); // Convert the input to lowercase for easier comparison.
     $cost = 0;
 
     // Check the input for "Large" or "XL".
-      if (strpos($size, "large") !== false)
-       {
+    if (strpos($size, "large") !== false)
+      {
         $cost = 6;
         echo "You have chosen a Large Pizza <br />"; 
       }
@@ -24,12 +24,12 @@
         $cost = 10;
         echo "You have chosen an XL Pizza<br />";
         }
-     }
-}
+    }
+  }
       else {
           echo "Please enter a valid Pizza size<br />";
-       }
-       if ($exitsizeloop == 0 ) {
+      }
+      if ($exitsizeloop == 0 ) {
           while ($exittoppingloop == 1)
             {
 
@@ -42,7 +42,7 @@
                       $cost = $cost + 0;
                       $exittoppingloop = 0;
                       break;
-                 case 1:
+                case 1:
                       $cost += 1;
                       $exittoppingloop = 0;
 
