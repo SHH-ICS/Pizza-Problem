@@ -25,8 +25,8 @@
         echo "You have chosen an XL Pizza<br />";
         }
     }
-  }
-      else {
+      
+    else {
           echo "Please enter a valid Pizza size<br />";
       }
       if ($exitsizeloop == 0 ) {
@@ -47,18 +47,18 @@
                       $exittoppingloop = 0;
 
                       break; 
-                 case 2:
-                       $cost += 1.75;
-                       $exittoppingloop  =0; 
+                case 2:
+                      $cost += 1.75;
+                      $exittoppingloop  =0; 
                       break;
-                 case 3:
-                     $cost +=  2.5 ;
-                     $exittoppingloop =  0;
+                case 3:
+                    $cost +=  2.5 ;
+                    $exittoppingloop =  0;
                     break;
                 case 4:
-                   $cost += 3.35;  
-                   $exittoppingloop =0;
-                 break;
+                  $cost += 3.35;  
+                  $exittoppingloop =0;
+                break;
 
               }
           }
