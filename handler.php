@@ -65,7 +65,7 @@
      echo "Your Tax is $",round($cost * $onlytax),"<br />" ; 
       echo "Your total is $",  round($cost*$tax, 2),"<br />";
           } 
-    }
+  
   
   ?> 
 
