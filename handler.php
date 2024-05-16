@@ -1,3 +1,5 @@
+<!-- You have some PHP elements here, but data is passed with the POST variable which you don't appear to be using here.  readline is a command from Python that does not apply here. -->
+
 <html>
 <head>
 <title>PHP Test</title>
